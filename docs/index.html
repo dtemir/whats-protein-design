@@ -21,76 +21,177 @@
   </head>
   <body>
     <div class="reveal">
-	  <div class ="slides">
-	    <section data-auto-animate>
-			<section>
-				<h1>Protein Design</h1>
-			</section>
-			<section>
-				<div class="r-stack">
-					<img class="fragment fade-out current-visible" src="https://cdn.mos.cms.futurecdn.net/zQee9UCQr9hHA64xXPUZxf.jpg" width="450" height="300">
-					<img class="fragment fade-out current-visible" src="https://images.heb.com/is/image/HEBGrocery/000866673" width="450" height="450">
-					<img class="fragment fade-out current-visible" src="https://www.zymergen.com/wp-content/uploads/2021/07/protein-structure-OG.jpg">
-				  </div>
-			</section>
-			<section>
-				<!-- source https://courses.lumenlearning.com/microbiology/chapter/proteins/ -->
-				<h2>Amino Acid</h2>
-				<div class="r-stack">
-					<img class="fragment" src="assets/amino-acids.jpg">
-				</div>
-				<aside class="notes">
-					An amino acid is an organic molecule in which a hydrogen atom, a carboxyl group (–COOH), and an amino group (–NH2) are all bonded to the same carbon atom, the so-called α carbon.
-					The fourth group bonded to the α carbon varies among the different amino acids and is called a residue or a side chain, represented in structural formulas by the letter R.
-				</aside>
-			</section>
-			<section>
-				<!-- source https://courses.lumenlearning.com/microbiology/chapter/proteins/ -->
-				<h2>Primary Structure</h2>
-				<div class="r-stack">
-					<img class="fragment" src="assets/protein-structure.jpg">
-				</div>
-				<aside class="notes">
-					
-				</aside>
-			</section>
-			<section>
-				<h2>Secondary Structure</h2>
-				<div class="r-stack">
-					<img class="fragment" src="assets/secondary-structure.jpg">
-				</div>
-			</section>
-	    </section>
-		<section>
-			<section>
-				<!-- source https://www.nature.com/subjects/protein-design -->
-				<h2>Protein Design</h2>
-				A technique by which proteins with enhanced or novel functional properties are created.
-			</section>
-			<section>
-				<!-- source https://www.sciencedirect.com/science/article/pii/S0021925821003367 -->
-				<h3>Principles</h3>
-				<div class="r-stack">
-					<img class="fragment" src="assets/steps.jpg">
-				</div>
-			</section>
-		</section>
-		<section data-markdown>
-			<textarea data-template>
-				```python 
-				print('hello')
-				
-				```				
-			</textarea>
-		</section>
-	  </div>
+      <div class ="slides">
+        <!-- 1st Page -->
+        <section>
+          <section>
+            <h1>Protein Design</h1>
+            <div class="r-stack">
+              <img class="fragment fade-in" src="assets/tim.gif">
+            </div>
+          </section>
+
+          <section>
+            <div style="margin: auto; width: 50%;">
+              <ul>
+                <li>
+                  what is a protein and its structure
+                </li>
+                <li>
+                  what is protein design
+                </li>
+                <li>
+                  how cool is DeepMind's AlphaFold 2
+                </li>
+                <li>
+                  basics of protein wrangling and visualization
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <div class="r-stack">
+              <img class="fragment fade-out current-visible" src="https://cdn.mos.cms.futurecdn.net/zQee9UCQr9hHA64xXPUZxf.jpg" width="450" height="300">
+              <img class="fragment fade-out current-visible" src="https://images.heb.com/is/image/HEBGrocery/000866673" width="450" height="450">
+              <img class="fragment fade-out current-visible" src="https://www.zymergen.com/wp-content/uploads/2021/07/protein-structure-OG.jpg">
+            </div>
+          </section>
+        </section>
+
+        <!-- 2nd Page -->
+      
+        <section>
+          <section>
+            <!-- source https://courses.lumenlearning.com/microbiology/chapter/proteins/ -->
+            <h2>Amino Acid</h2>
+            <div class="r-stack">
+              <img class="fragment" src="assets/amino-acids.jpg">
+            </div>
+            <aside class="notes">
+              An amino acid is an organic molecule in which a hydrogen atom, a carboxyl group (–COOH), and an amino group (–NH2) are all bonded to the same carbon atom, the so-called α carbon.
+              The fourth group bonded to the α carbon varies among the different amino acids and is called a residue or a side chain, represented in structural formulas by the letter R.
+            </aside>
+          </section>
+
+          <section>
+            <!-- source https://courses.lumenlearning.com/microbiology/chapter/proteins/ -->
+            <h2>Primary Structure</h2>
+            <div class="r-stack">
+              <img class="fragment" src="assets/protein-structure.jpg">
+            </div>
+            <aside class="notes">
+
+            </aside>
+          </section>
+
+          <section>
+            <h2>Secondary Structure</h2>
+            <div class="r-stack">
+              <img class="fragment" src="assets/secondary-structure.jpg">
+            </div>
+            <aside class="notes">
+              
+            </aside>
+          </section>
+        </section>
+
+        <!-- 3rd Page -->
+
+        <section>
+          <section>
+            <!-- source https://www.nature.com/subjects/protein-design -->
+            <h2>Protein Design</h2>
+            <p>A technique by which proteins with enhanced or novel functional properties are created</p>
+            <div style="margin: auto; width: 50%;">
+              <ul>
+                <li>
+                  pick the right template
+                </li>
+                <li>
+                  optimize its sequence with the right residues
+                </li>
+                <li>
+                  score the result
+                </li>
+                <li>
+                  find use for it
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <!-- source https://www.sciencedirect.com/science/article/pii/S0021925821003367 -->
+            <h2>Principles</h2>
+            <div class="r-stack">
+              <img class="fragment" src="assets/steps.jpg">
+              <aside class="notes">
+                Major aspects of the de novo protein design. 
+              </aside>
+            </div>
+          </section>
+        </section>
+
+        <!-- 4th Page -->
+        
+        <section>
+          <!-- source https://deepmind.com/research/case-studies/alphafold-->
+          <section>
+            <h2>AlphaFold 2</h2>
+            <div class="r-stack">
+              <img class="fragment fade-in" src="assets/casp14_predictions.gif">
+            </div>
+            <small><a href="https://github.com/deepmind/alphafold/" target="_blank">GitHub</a></small>
+          </section>
+
+          <section>
+            <div class="r-stack">
+              <img class="fragment fade-in" src="assets/unnamed.webp">
+            </div>
+          </section>
+
+          <section data-background-iframe="https://alphafold.ebi.ac.uk/" data-background-interactive>
+            <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: #193f90; color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+              <p>AlphaFold released 350,000 protein structures with a plan to release 100 million more to cover <bold>all proteins known to humanity</bold></p>
+            </div>
+          </section>
+        </section>
+
+        <!-- 5th Page -->
+
+        <section>
+          <section>
+            <h2>Cool Papers & Blogs</h2>
+            <div style="margin: auto; width: 50%;">
+              <ul>
+                <li>
+                  Highly accurate protein structure prediction for the human proteome <a href="https://www.nature.com/articles/s41586-021-03828-1??utm_medium=affiliate&utm_source=commission_junction&utm_campaign=CONR_PF018_ECOM_GL_PHSS_ALWYS_PRODUCT&utm_content=productdatafeed&utm_term=PID100052172&CJEVENT=1cd8143292c511ec8275a0fd0a82b820">🔗</a>
+                </li>
+                <li>
+                  Highly accurate protein structure prediction with AlphaFold <a href="https://www.nature.com/articles/s41586-021-03819-2??utm_medium=affiliate&utm_source=commission_junction&utm_campaign=CONR_PF018_ECOM_GL_PHSS_ALWYS_PRODUCT&utm_content=productdatafeed&utm_term=PID100052172&CJEVENT=1d86697292c511ec83a002440a82b838">🔗</a>
+                </li>
+                <li>
+                  Recent advances in de novo protein design: Principles, methods, and applications <a href="https://www.sciencedirect.com/science/article/pii/S0021925821003367#bib66">🔗</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section data-background-image="https://c.tenor.com/GeEQ0vs-kRMAAAAC/the-office-michael-scott.gif">
+
+          </section>
+        </section>
+
+      </div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/headjs@1.0.3/dist/1.0.0/head.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/highlight/highlight.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/markdown/markdown.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/markdown/plugin.js"></script>
-	
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/markdown/plugin.js"></script>
+    
     <script>
       Reveal.initialize({
 
